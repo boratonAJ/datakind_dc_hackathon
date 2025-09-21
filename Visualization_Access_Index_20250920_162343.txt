@@ -1,0 +1,38 @@
+
+🎨 VISUALIZATION ACCESS INDEX
+=============================
+
+📱 QUICK ACCESS LINKS:
+----------------------
+
+🎯 MASTER DASHBOARD:
+   File: framework_analysis_output/INTEGRATED_DASHBOARD.html
+   Description: Complete framework overview with all key metrics
+
+📊 ANALYSIS VISUALIZATIONS:
+   ├── Housing Quality: framework_analysis_output/analysis/housing_quality_visualization.html
+   ├── Social Isolation: framework_analysis_output/analysis/social_isolation_visualization.html  
+   ├── Vulnerability Index: framework_analysis_output/analysis/vulnerability_index_visualization.html
+   └── Geographic Clustering: framework_analysis_output/analysis/geographic_clustering_visualization.html
+
+🗺️ SPATIAL VISUALIZATIONS:
+   ├── Tract-Council Analysis: framework_analysis_output/spatial/tract_council_visualization.html
+   └── Geographic Coverage: framework_analysis_output/spatial/geographic_coverage_map.html
+
+📋 REPORT VISUALIZATIONS:
+   ├── Data Quality: framework_analysis_output/reports/data_quality_dashboard.html
+   ├── Policy Recommendations: framework_analysis_output/reports/policy_recommendations_dashboard.html
+   └── Comprehensive Summary: framework_analysis_output/reports/comprehensive_summary_dashboard.html
+
+💾 DATA FILES:
+   ├── Analysis Data: framework_analysis_output/analysis/ (4 CSV files)
+   ├── Raw Data: framework_analysis_output/data/ (2 CSV files)
+   ├── Spatial Data: framework_analysis_output/spatial/ (2 CSV files)
+   └── Reports: framework_analysis_output/reports/ (3 JSON files)
+
+🏆 USAGE RECOMMENDATIONS:
+   1. Start with INTEGRATED_DASHBOARD.html for complete overview
+   2. Drill down into specific analysis visualizations for details
+   3. Use spatial visualizations for geographic context
+   4. Reference report dashboards for quality and policy insights
+   5. Access CSV/JSON files for further analysis or integration

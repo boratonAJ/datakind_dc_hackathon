@@ -1,0 +1,12 @@
+# Requirements for Baton Rouge Data Collection and Spatial Analysis
+pandas>=1.5.0
+requests>=2.25.0
+geopandas>=0.10.0
+shapely>=1.8.0
+pygris>=0.1.5
+census>=0.8.19
+pathlib2>=2.3.6
+
+# Additional requirements for ACS Housing Data script
+cenpy>=1.0.1
+numpy>=1.21.0

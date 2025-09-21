@@ -1,0 +1,33 @@
+{
+  "analysis_date": "2025-09-20T16:10:12.269626",
+  "analysis_year": 2023,
+  "geographic_scope": {
+    "state_fips": "22",
+    "county_fips": "033",
+    "parish_name": "East Baton Rouge Parish"
+  },
+  "data_sources_used": {
+    "acs_data": {
+      "records": 0,
+      "columns": 0
+    },
+    "municipal_data": {
+      "datasets": 2,
+      "total_records": 50004
+    },
+    "health_data": {
+      "records": 0,
+      "columns": 0
+    },
+    "environmental_data": {
+      "datasets": 3,
+      "total_records": 0
+    },
+    "crime_analysis": {
+      "records": 0,
+      "columns": 0
+    }
+  },
+  "tract_coverage": {},
+  "key_findings": {}
+}

@@ -1,0 +1,80 @@
+{
+  "framework_info": {
+    "analysis_date": "2025-09-20T16:10:12.560189",
+    "analysis_year": 2023,
+    "output_directory": "framework_analysis_output",
+    "configuration": {
+      "data_sources": {
+        "census_acs": true,
+        "municipal_data": true,
+        "health_outcomes": true,
+        "environmental_data": true,
+        "crime_analysis": true,
+        "spatial_crosswalks": true
+      },
+      "analysis_options": {
+        "include_spatial": true,
+        "calculate_risk_scores": true,
+        "create_composite_indices": true,
+        "generate_visualizations": false,
+        "save_intermediate_results": true
+      },
+      "geographic_scope": {
+        "state_fips": "22",
+        "county_fips": "033",
+        "parish_name": "East Baton Rouge Parish"
+      },
+      "output_formats": [
+        "csv",
+        "geojson"
+      ],
+      "processing_options": {
+        "max_rows_per_dataset": 50000,
+        "spatial_analysis": true,
+        "verbose_logging": true
+      }
+    }
+  },
+  "data_collection_summary": {
+    "acs_data": {
+      "collected": false,
+      "record_count": 0
+    },
+    "municipal_data": {
+      "collected": true,
+      "record_count": 50004
+    },
+    "health_data": {
+      "collected": false,
+      "record_count": 0
+    },
+    "environmental_data": {
+      "collected": true,
+      "record_count": 0
+    },
+    "crime_analysis": {
+      "collected": false,
+      "record_count": 0
+    }
+  },
+  "analysis_summary": {
+    "comprehensive_summary": {
+      "completed": true,
+      "record_count": 1
+    },
+    "policy_recommendations": {
+      "completed": true,
+      "record_count": 1
+    },
+    "data_quality_report": {
+      "completed": true,
+      "record_count": 1
+    }
+  },
+  "spatial_analysis_summary": {
+    "tract_council_crosswalk": {
+      "created": true,
+      "record_count": 109
+    }
+  }
+}

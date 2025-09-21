@@ -1,0 +1,10 @@
+GEOID,tract_name,council_district_id,council_district_name,assignment_method,notes
+22033000100,"Census Tract 1, East Baton Rouge Parish, Louisiana",TBD,To Be Determined,template,Placeholder - requires actual boundary data for assignment
+22033000200,"Census Tract 2, East Baton Rouge Parish, Louisiana",TBD,To Be Determined,template,Placeholder - requires actual boundary data for assignment
+22033000300,"Census Tract 3, East Baton Rouge Parish, Louisiana",TBD,To Be Determined,template,Placeholder - requires actual boundary data for assignment
+22033000400,"Census Tract 4, East Baton Rouge Parish, Louisiana",TBD,To Be Determined,template,Placeholder - requires actual boundary data for assignment
+22033000500,"Census Tract 5, East Baton Rouge Parish, Louisiana",TBD,To Be Determined,template,Placeholder - requires actual boundary data for assignment
+22033009700,"Census Tract 97, East Baton Rouge Parish, Louisiana",TBD,To Be Determined,template,Placeholder - requires actual boundary data for assignment
+22033009800,"Census Tract 98, East Baton Rouge Parish, Louisiana",TBD,To Be Determined,template,Placeholder - requires actual boundary data for assignment
+22033009900,"Census Tract 99, East Baton Rouge Parish, Louisiana",TBD,To Be Determined,template,Placeholder - requires actual boundary data for assignment
+INSTRUCTIONS,REPLACE WITH ACTUAL TRACT DATA,1-12,Baton Rouge has 12 council districts,spatial_join,Use real boundary data from data.brla.gov or similar source

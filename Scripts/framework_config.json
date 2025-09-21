@@ -1,0 +1,46 @@
+{
+  "data_sources": {
+    "census_acs": true,
+    "municipal_data": true,
+    "health_outcomes": true,
+    "environmental_data": true,
+    "crime_analysis": true,
+    "spatial_crosswalks": true
+  },
+  "analysis_options": {
+    "include_spatial": true,
+    "calculate_risk_scores": true,
+    "create_composite_indices": true,
+    "generate_visualizations": false,
+    "save_intermediate_results": true
+  },
+  "geographic_scope": {
+    "state_fips": "22",
+    "county_fips": "033",
+    "parish_name": "East Baton Rouge Parish"
+  },
+  "output_formats": [
+    "csv",
+    "geojson"
+  ],
+  "processing_options": {
+    "max_rows_per_dataset": 50000,
+    "spatial_analysis": true,
+    "verbose_logging": true
+  },
+  "api_settings": {
+    "census_api_rate_limit": 1000,
+    "municipal_api_batch_size": 1000,
+    "health_api_timeout": 30,
+    "environmental_api_timeout": 30
+  },
+  "data_validation": {
+    "min_tract_coverage": 100,
+    "required_acs_variables": [
+      "total_population",
+      "total_housing_units",
+      "median_household_income"
+    ],
+    "data_quality_threshold": 0.8
+  }
+}
